@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIMBEL SCIENTISTS</title>
+    <link rel="stylesheet" 
+    href="assets/styles/style.css">
+    <meta name="viewport" content="width=device-width,
+ initial-scale=1">  
+</head>
+   
+<body>
+
+    <header>
+    
+    <div class="jumbotron">
+    <h1>BIMBEL SCIENTISTS <cite>SISWA PULANG MEMBAWA ILMU<cite></cite> </h1>
+    </div>
+
+<nav>
+    <ul>
+        <li><a href="#Program BIMBEL">Program BIMBEL</a></li>       
+        <li><a href="#Program KURSUS">Program KURSUS</a></li>
+        <li><a href="#Tentang Kami">Tentang Kami</a></li>
+     </ul>
+</nav>
+    
+    </header>
+
+<main>
+
+<aside>
+    <article class="profile">
+        <header >
+        <h2>Tommy Azwar Muslim</h2>
+    
+        <figure>
+        <img src="assets/image/Foto Tommy Azwar Muslim.jpg"
+        alt="Tommy Azwar Muslim" width="100 px">
+        <figcaption>Foto Diri</figcaption>
+        </figure>
+        
+        </header>
+        
+        <section>
+            Informasi Lainnya<br>
+            Lahir di Jakarta 061168<br>
+            pekerjaan pengurus Bimbel Scientists
+            
+        </section>
+        
+    </article>
+</aside>
+
+
+<style>
+        .carousel {
+            position: relative;
+            width: 800px;
+            height: 500px;
+            margin: 10px auto;
+            overflow: hidden;
+        }
+
+        .carousel img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+            display: none;
+        }
+
+        .carousel img.active {
+            display: block;
+        }
+
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .prev {
+            left: 20px;
+        }
+
+        .next {
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <img src="./assets/image/bimbel office.jpg" alt="Gambar 1" class="active">
+        <img src="./assets/image/Logo Bimbel.jpg" alt="Gambar 2">
+        <img src="./assets/image/bimbel1.jpg" alt="Gambar 3">
+        <img src="./assets/image/bimbel2.jpg" alt="Gambar 4">
+        <img src="./assets/image/bimbel3.jpg" alt="Gambar 5">
+        <img src="./assets/image/bimbel4.jpg" alt="Gambar 6">
+        <img src="./assets/image/bimbel5.jpg" alt="Gambar 7">
+        <img src="./assets/image/bimbel6.jpg" alt="Gambar 8">
+
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+    </div>
+
+    <script>
+        let carousel = document.querySelector('.carousel');
+        let images = carousel.querySelectorAll('img');
+        let prev = carousel.querySelector('.prev');
+        let next = carousel.querySelector('.next');
+        let currentImage = 0;
+
+        prev.addEventListener('click', () => {
+            images[currentImage].classList.remove('active');
+            currentImage = (currentImage - 1 + images.length) % images.length;
+            images[currentImage].classList.add('active');
+        });
+
+        next.addEventListener('click', () => {
+            images[currentImage].classList.remove('active');
+            currentImage = (currentImage + 1) % images.length;
+            images[currentImage].classList.add('active');
+        });
+
+        setInterval(() => {
+            images[currentImage].classList.remove('active');
+            currentImage = (currentImage + 1) % images.length;
+            images[currentImage].classList.add('active');
+        }, 3000);
+    </script>
+
+<article>
+   <section>
+    <h2 id="Program BIMBEL">Program BIMBEL</h2>
+<h2>1. Program Bimbel SD (4,5 & 6)</h2>
+<h2>2. Program Bimbel SMP</h2>
+<h2>3. Program Bimbel SMA/Sederajat</h2>
+<h2>4. (Siap UTBK; US;PTS;PAT)</h2>
+   </section>
+
+   <section>
+<h2 id="Program KURSUS">Program KURSUS</h2>
+<h2>1. ACCOUNTING<br>
+    <cite>(Program Kursus Akuntansi merupakan kebutuhan mendasar untuk menjalankan  bisnis)</cite></h2>
+<img src="assets/image/accounting.jpg"
+class="featured-image"
+alt="ACCOUNTING"></section>
+<article id="ACCOUNTING" class="card">
+   
+<p lang="id" translate="no">Program ini bertujuan agar peserta dapat memahami dengan Accounting Cycle (alur pencatatan) akuntansi untuk perusahaan jasa, dagang dan industry. Peserta akan dapat memahami membuat laporan keuangan yang diperlukan perusahaan seperti Laporan Laba Rugi,  Perubahan Modal dan Neraca.
+<strong>Sangat cocok di ikuti oleh mereka yang berminat menjadi staf accounting atau staf keuangan perusahaan.</strong></p>
+    
+<h2>2. MS. OFFICE</h2>
+<img src="assets/image/ms office.jpg"
+class="featured-image"
+alt="MS. OFFICE">
+        </section>
+<article id="MS. OFFICE" class="card">
+    <section>
+<p>Paket ini di rancang untuk peserta yang <strong>ingin mempunyai kemampuan untuk dapat bekerja sebagai tenaga administrasi perkantoran yang memiliki kemampuan untuk mengoperasikan komputer dengan perangkat lunak Microsoft Windows, Word, Excel dan Power Point.</strong></p>
+    </section>
+
+    <section>
+<h2>3. GENERAL ENGLISH</h2>
+<img src="assets/image/general english.jpg"
+class="featured-image"
+alt="GENERAL ENGLISH"></section>
+
+<article id="GENERAL ENGLISH" class="card">
+    <section>
+<p>Selama program berlangsung <strong>siswa akan di berikan tes tertulis</strong> untuk mengetahui hasil belajar dan di pantau oleh guru yang bermutu.</p>
+    </section>
+
+    <section>
+<h2 id="Tentang Kami">Tentang Kami</h2>
+<img src="assets/image/Logo Bimbel.jpg"
+alt="Tentang Kami" width="100 px">
+    
+<h3> Bimbingan Belajar Scientists<br> 
+Berdiri Sejak tahun 2006<br>  
+Alamat Perum Mutiara Bekasi Jaya<br>
+Cibarusah Bekasi jawa Barat<br>
+Visi : Mencerdaskan Masyarakat<br>
+Misi : Menyelenggarakan Bimbingan Belajar<br></h3>
+<h2>LANGSUNG SAJA MENDAFTAR DI <cite>WA 0858 8652 8913</cite></h2> 
+    </section>
+
+</article>
+
+<script src="Main.js">
+
+</script>
+
+</main>
+<title>WhatsApp Icon</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .whatsapp-icon {
+            position: fixed;
+            top: 250px;
+            left: 20px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .whatsapp-icon:hover {
+            background-color: #1EBE5B;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://api.whatsapp.com/send/?phone=6285886528913&amp;text=hallo dengan Bimbel Scientists ada yang bisa kami bantu ?&amp;type=phone_number&amp;app_absent=0" target="_blank" class="whatsapp-icon" title="Chat via WhatsApp">
+        <i class="fab fa-whatsapp fa-2x"></i></a>
+ 
+
+<footer>
+    &copy; 2025, Bimbel Scientists 
+    
+   </footer>
+</body>
+</html>
