@@ -1,4 +1,4 @@
-class Aside extends HTMLElement {
+class Carousel extends HTMLElement {
   constructor() {
     super();
 
