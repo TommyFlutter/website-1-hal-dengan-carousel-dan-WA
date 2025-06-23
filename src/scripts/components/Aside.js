@@ -13,7 +13,7 @@ class Aside extends HTMLElement {
         <h2>Tommy Azwar Muslim</h2>
     
         <figure>
-        <img src="../public/image/Foto Tommy Azwar Muslim.jpg"
+        <img src="../../public/image/Foto Tommy Azwar Muslim.jpg"
         alt="Tommy Azwar Muslim" width="100 px">
         <figcaption>Foto Diri</figcaption>
         </figure>

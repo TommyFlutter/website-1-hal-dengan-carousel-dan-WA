@@ -17,9 +17,9 @@ class Apps extends HTMLElement {
 
 <nav>
     <ul>
-        <li><a href="#Program BIMBEL">Program BIMBEL</a></li>       
-        <li><a href="#Program KURSUS">Program KURSUS</a></li>
-        <li><a href="#Tentang Kami">Tentang Kami</a></li>
+        <li><a href="#Program BIMBEL">BIMBEL</a></li>       
+        <li><a href="#Program KURSUS">KURSUS</a></li>
+        <li><a href="#Tentang Kami">About Us</a></li>
      </ul>
 </nav>
     

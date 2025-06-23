@@ -22,7 +22,7 @@ class Article extends HTMLElement {
 <h2 id="Program KURSUS">Program KURSUS</h2>
 <h2>1. ACCOUNTING<br>
     <cite>(Program Kursus Akuntansi merupakan kebutuhan mendasar untuk menjalankan  bisnis)</cite></h2>
-<img src="../public/image/accounting.jpg"
+<img src="../../public/image/accounting.jpg"
 class="featured-image"
 alt="ACCOUNTING"></section>
 <article id="ACCOUNTING" class="card">
@@ -31,7 +31,7 @@ alt="ACCOUNTING"></section>
 <strong>Sangat cocok di ikuti oleh mereka yang berminat menjadi staf accounting atau staf keuangan perusahaan.</strong></p>
     
 <h2>2. MS. OFFICE</h2>
-<img src="../public/image/ms office.jpg"
+<img src="../../public/image/ms office.jpg"
 class="featured-image"
 alt="MS. OFFICE">
         </section>
@@ -42,7 +42,7 @@ alt="MS. OFFICE">
 
     <section>
 <h2>3. GENERAL ENGLISH</h2>
-<img src="../public/image/general english.jpg"
+<img src="../../public/image/general english.jpg"
 class="featured-image"
 alt="GENERAL ENGLISH"></section>
 
@@ -53,7 +53,7 @@ alt="GENERAL ENGLISH"></section>
 
     <section>
 <h2 id="Tentang Kami">Tentang Kami</h2>
-<img src="../public/image/Logo Bimbel.jpg"
+<img src="../../public/image/Logo Bimbel.jpg"
 alt="Tentang Kami" width="100 px">
     
 <h3> Bimbingan Belajar Scientists<br> 
