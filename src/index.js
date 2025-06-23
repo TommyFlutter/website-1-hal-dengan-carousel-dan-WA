@@ -1,5 +1,5 @@
-import '../Styles/style.css';
-import "./components/Apps.js";
-import "./components/Article.js";
-import "./components/Aside.js";
-import "./components/Carousel.js";
+import './Styles/style.css';
+import "./scripts/components/Apps.js";
+import "./scripts/components/Article.js";
+import "./scripts/components/Aside.js";
+import "./scripts/components/Carousel.js";
