@@ -76,7 +76,13 @@ body {
     header {
      display: inline;
             }
- 
+
+.profile img {
+  max-width: 80%;
+  width: 150px; /* sesuaikan saja nilainya */
+}
+            
+
 	footer {
 padding: 20px;
 color: rgb(243, 246, 248);
