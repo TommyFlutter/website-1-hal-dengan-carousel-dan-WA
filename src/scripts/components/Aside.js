@@ -1,3 +1,5 @@
+import FotoTommy from '../../public/image/Foto Tommy Azwar Muslim.jpg';
+
 class Aside extends HTMLElement {
   constructor() {
     super();
@@ -6,23 +8,18 @@ class Aside extends HTMLElement {
   }
   render() {
     this.innerHTML = `
-
-    <aside>
+<aside>
     <article class="profile">
         <header >
         <h2>Tommy Azwar Muslim</h2>
     
-        <figure>
-        <img src="../../public/image/Foto Tommy Azwar Muslim.jpg"
-        alt="Tommy Azwar Muslim" width="100 px">
-        <figcaption>Foto Diri</figcaption>
-        </figure>
+        
+        <img src="${FotoTommy}" />
         
         </header>
         
         <section>
             Informasi Lainnya<br>
-            Lahir di Jakarta 061168<br>
             pekerjaan pengurus Bimbel Scientists
             
         </section>
@@ -30,7 +27,7 @@ class Aside extends HTMLElement {
     </article>
 </aside>
 `;
-      }
+  }
 }
 
 customElements.define('main-aside', Aside);
